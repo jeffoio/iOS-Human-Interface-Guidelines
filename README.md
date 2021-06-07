@@ -6,6 +6,7 @@
   - [Interface Essentials](#interface-essentials)
 - App Architecture
   - [Launching](#Launching)
+  - [Onboarding](#Onboarding)
 - User Interaction
 - System Capabilities
 - Visual Design
@@ -18,7 +19,7 @@
 
 ## Themes
 
-![iOS-Hero](img/iOS-Hero.svg)
+<p align="center"><img src = "img/iOS-Hero.svg" width="90%"></p>
 
 ### iOS Design Theme
 당신은 디자이너로써 AppStore 인가차트에 선보일 놀라운 앱을 선보일 기회를 가지고 있다. 그러기 위해 당신은 품질과 기능에 대한 높은 기대치를 만족시켜야할 필요가 있다.
@@ -111,3 +112,25 @@ iOS는 애플페이, HealthKit, ReasearchKit와 같은 다른 프레임워크를
 
 
 *Avoid asking people to rate your app too quickly or too often.* 평점 등록을 설치 후 너무 빨리, 자주 요청하는 것은 지양해라. 좋은 피드백을 얻기 위해 사용자에게 앱에 대한 의견을 생각해볼 시간을 줘야한다. 등록 요청을 거부할 수 있는 기능을 항상 제공하고 강요하지마라.
+
+
+
+## Onboarding
+Onboarding을 통해 새로운 사용자를 환영하고 다시 돌아온 사용자를 재연결 할 수 있다. 빠르고 즐거운 온보딩 경험은 사람들에게 전반적인 앱의 기능을 알려준다.
+
+<p align="center"><img src = "./img/onboarding.png" width="35%"></p>
+
+**사람들이 앱을 즐기는데 도움을 줄 수 있는 Onboarding을 제공하라.** 사용자는앱의 기능을 학습할 수 있는기회에 감사할 것이다. 사용자 환경 설정과 라이센스 정보 등을 Onboarding에서 피해라.  
+자세한 내용은 [Launching](#Launching)을 참고하세요.
+
+
+**빠르게 작업을 실행해라.** 앱의 초기화면이 시작되고, 바로 당신의 앱을 즐길수 있도록 해야한다. 만약 튜토리얼이나 인트로를 제공해야 한다면 사용자들이 스킵할 수 있는 선택을 제공하고 다시 돌아온 사용자에게 보여주지 마라.
+
+
+**도움이 필요한 곳을 예측해라.** 사용자가 고전 할 수 있는 곳을 미리 찾아라. 예를 들어 게엠에서 정지 상태에서 유용한 팁을 보여줘라. 사용자가 무언가 놓쳤을 상황을 위해 튜토리얼을 제시작 할 수 있는 기회를 제공해라.
+
+
+**꼭 필요한 것만 튜토리얼에 포함해라.**  초보자를 위한 가이드라인을 제공하는 것은 좋지만 가이드라인이 필요하지 않는 훌륭한 디자인을 제공해라. 우선, 직관적이게 디자인해라. 많은 가이드라인이 필요하다면, 앱의 디자인을 다시 확인해야한다.
+
+
+**학습을 재밌고 발견 가능하게 해라.** 행동을 통해서 배우는 것이 지시사항을 읽는 것 보다 훨씬 즐겁고 효과적이다. 애니메이션과 상호작용을 사용해 상황에 맞게 점진적으로 가르쳐라. 상호작용에 의한 스크린샷을 보여주는 것은 피해라.
